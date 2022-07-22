@@ -13,7 +13,7 @@
                   <Font size="36.0" />
                </font>
             </Button>
-            <Button fx:id="button8" layoutX="111.0" layoutY="50.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="8" translateY="1.0">
+            <Button fx:id="button8" layoutX="111.0" layoutY="50.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="8" translateY="1.0" onMouseClicked="#button8Pressed">
                <font>
                   <Font size="40.0" />
                </font>
@@ -23,37 +23,37 @@
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button fx:id="buttonEnter" layoutX="333.0" layoutY="302.0" maxHeight="84.0" maxWidth="221.0" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="84.0" prefWidth="221.0" text="Enter">
+            <Button fx:id="buttonEnter" layoutX="333.0" layoutY="302.0" maxHeight="84.0" maxWidth="221.0" mnemonicParsing="false"  prefHeight="84.0" prefWidth="221.0" text="Enter">
                <font>
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button fx:id="button0" layoutY="302.0" maxHeight="84.0" maxWidth="222.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="222.0" text="0" textAlignment="CENTER">
+            <Button fx:id="button0" layoutY="302.0" maxHeight="84.0" maxWidth="222.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="222.0" text="0" textAlignment="CENTER" onMouseClicked="#button0Pressed">
                <font>
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button fx:id="button4" layoutY="134.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="4">
+            <Button fx:id="button4" layoutY="134.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="4" onMouseClicked="#button4Pressed">
                <font>
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button fx:id="button9" layoutX="222.0" layoutY="50.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="9" translateY="1.0">
+            <Button fx:id="button9" layoutX="222.0" layoutY="50.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="9" translateY="1.0" onMouseClicked="#button9Pressed">
                <font>
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button fx:id="button5" layoutX="111.0" layoutY="134.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="5">
+            <Button fx:id="button5" layoutX="111.0" layoutY="134.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="5" onMouseClicked="#button5Pressed">
                <font>
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button fx:id="button2" layoutX="111.0" layoutY="218.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="2">
+            <Button fx:id="button2" layoutX="111.0" layoutY="218.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="2" onMouseClicked="#button2Pressed">
                <font>
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button fx:id="button3" layoutX="222.0" layoutY="218.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="3">
+            <Button fx:id="button3" layoutX="222.0" layoutY="218.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="3" onMouseClicked="#button3Pressed">
                <font>
                   <Font size="40.0" />
                </font>
@@ -73,7 +73,7 @@
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button fx:id="button1" layoutY="218.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="1">
+            <Button fx:id="button1" layoutY="218.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="1" onMouseClicked="#button1Pressed">
                <font>
                   <Font size="40.0" />
                </font>
@@ -88,19 +88,19 @@
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button fx:id="button7" layoutY="50.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="7" translateY="1.0">
+            <Button fx:id="button7" layoutY="50.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="7" translateY="1.0" onMouseClicked="#button7Pressed">
                <font>
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button fx:id="button6" layoutX="222.0" layoutY="134.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="6">
+            <Button fx:id="button6" layoutX="222.0" layoutY="134.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="6" onMouseClicked="#button6Pressed">
                <font>
                   <Font size="40.0" />
                </font>
             </Button>
          </children>
       </Pane>
-      <TextArea fx:id="textAreaInput" layoutX="23.0" layoutY="14.0" prefHeight="200.0" prefWidth="555.0" promptText="Input" />
-      <TextArea fx:id="textAreaOutput" layoutX="23.0" layoutY="244.0" prefHeight="200.0" prefWidth="555.0" promptText="Output" />
+      <TextArea fx:id="textAreaInput" layoutX="23.0" layoutY="14.0" prefHeight="200.0" prefWidth="555.0" promptText="Input" editable="false"/>
+      <TextArea fx:id="textAreaOutput" layoutX="23.0" layoutY="244.0" prefHeight="200.0" prefWidth="555.0" promptText="Output" editable="false"/>
    </children>
 </AnchorPane>
