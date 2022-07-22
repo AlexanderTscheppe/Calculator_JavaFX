@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="858.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-858.0" maxWidth="-600.0" minHeight="-858.0" minWidth="-600.0" prefHeight="858.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculator_javafx.HelloController">
    <children>
       <Pane layoutX="23.0" layoutY="444.0" prefHeight="400.0" prefWidth="555.0">
          <children>
@@ -23,7 +23,7 @@
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button fx:id="buttonEnter" layoutX="333.0" layoutY="302.0" maxHeight="84.0" maxWidth="221.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="221.0" text="Enter">
+            <Button fx:id="buttonEnter" layoutX="333.0" layoutY="302.0" maxHeight="84.0" maxWidth="221.0" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="84.0" prefWidth="221.0" text="Enter">
                <font>
                   <Font size="40.0" />
                </font>
@@ -100,7 +100,7 @@
             </Button>
          </children>
       </Pane>
-      <TextArea layoutX="23.0" layoutY="14.0" prefHeight="200.0" prefWidth="555.0" promptText="Input" />
-      <TextArea layoutX="23.0" layoutY="244.0" prefHeight="200.0" prefWidth="555.0" promptText="Output" />
+      <TextArea fx:id="textAreaInput" layoutX="23.0" layoutY="14.0" prefHeight="200.0" prefWidth="555.0" promptText="Input" />
+      <TextArea fx:id="textAreaOutput" layoutX="23.0" layoutY="244.0" prefHeight="200.0" prefWidth="555.0" promptText="Output" />
    </children>
 </AnchorPane>
