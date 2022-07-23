@@ -13,52 +13,52 @@
                   <Font size="36.0" />
                </font>
             </Button>
-            <Button fx:id="button8" layoutX="111.0" layoutY="50.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="8" translateY="1.0" onMouseClicked="#button8Pressed">
+            <Button fx:id="button8" layoutX="111.0" layoutY="50.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" onMouseClicked="#button8Pressed" prefHeight="84.0" prefWidth="111.0" text="8" translateY="1.0">
                <font>
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button fx:id="buttonMinus" layoutX="444.0" layoutY="218.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="-">
+            <Button fx:id="buttonMinus" layoutX="444.0" layoutY="218.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" onMouseClicked="#buttonOperationPressed" prefHeight="84.0" prefWidth="111.0" text="-" onMouseReleased="#buttonMinusPressed">
                <font>
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button fx:id="buttonEnter" layoutX="333.0" layoutY="302.0" maxHeight="84.0" maxWidth="221.0" mnemonicParsing="false"  prefHeight="84.0" prefWidth="221.0" text="Enter">
+            <Button fx:id="buttonEnter" layoutX="333.0" layoutY="302.0" maxHeight="84.0" maxWidth="221.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="221.0" text="Enter" onMouseClicked="#buttonOperationPressed" onMouseReleased="#buttonEnterPressed">
                <font>
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button fx:id="button0" layoutY="302.0" maxHeight="84.0" maxWidth="222.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="222.0" text="0" textAlignment="CENTER" onMouseClicked="#button0Pressed">
+            <Button fx:id="button0" layoutY="302.0" maxHeight="84.0" maxWidth="222.0" mnemonicParsing="false" onMouseClicked="#button0Pressed" prefHeight="84.0" prefWidth="222.0" text="0" textAlignment="CENTER">
                <font>
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button fx:id="button4" layoutY="134.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="4" onMouseClicked="#button4Pressed">
+            <Button fx:id="button4" layoutY="134.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" onMouseClicked="#button4Pressed" prefHeight="84.0" prefWidth="111.0" text="4">
                <font>
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button fx:id="button9" layoutX="222.0" layoutY="50.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="9" translateY="1.0" onMouseClicked="#button9Pressed">
+            <Button fx:id="button9" layoutX="222.0" layoutY="50.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" onMouseClicked="#button9Pressed" prefHeight="84.0" prefWidth="111.0" text="9" translateY="1.0">
                <font>
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button fx:id="button5" layoutX="111.0" layoutY="134.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="5" onMouseClicked="#button5Pressed">
+            <Button fx:id="button5" layoutX="111.0" layoutY="134.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" onMouseClicked="#button5Pressed" prefHeight="84.0" prefWidth="111.0" text="5">
                <font>
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button fx:id="button2" layoutX="111.0" layoutY="218.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="2" onMouseClicked="#button2Pressed">
+            <Button fx:id="button2" layoutX="111.0" layoutY="218.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" onMouseClicked="#button2Pressed" prefHeight="84.0" prefWidth="111.0" text="2">
                <font>
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button fx:id="button3" layoutX="222.0" layoutY="218.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="3" onMouseClicked="#button3Pressed">
+            <Button fx:id="button3" layoutX="222.0" layoutY="218.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" onMouseClicked="#button3Pressed" prefHeight="84.0" prefWidth="111.0" text="3">
                <font>
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button layoutX="444.0" layoutY="134.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="/">
+            <Button fx:id="buttonDivide" layoutX="444.0" layoutY="134.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" onMouseClicked="#buttonOperationPressed" prefHeight="84.0" prefWidth="111.0" text="/" onMouseReleased="#buttonDividePressed">
                <font>
                   <Font size="40.0" />
                </font>
@@ -73,34 +73,40 @@
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button fx:id="button1" layoutY="218.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="1" onMouseClicked="#button1Pressed">
+            <Button fx:id="button1" layoutY="218.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" onMouseClicked="#button1Pressed" prefHeight="84.0" prefWidth="111.0" text="1">
                <font>
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button fx:id="buttonPlus" layoutX="333.0" layoutY="218.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="+">
+            <Button fx:id="buttonPlus" layoutX="333.0" layoutY="218.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" onMouseClicked="#buttonOperationPressed" onMouseReleased="#buttonPlusPressed" prefHeight="84.0" prefWidth="111.0" text="+">
                <font>
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button layoutX="333.0" layoutY="134.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="*">
+            <Button fx:id="buttonTimes" layoutX="333.0" layoutY="134.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" onMouseClicked="#buttonOperationPressed" prefHeight="84.0" prefWidth="111.0" text="*" onMouseReleased="#buttonTimesPressed">
                <font>
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button fx:id="button7" layoutY="50.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="7" translateY="1.0" onMouseClicked="#button7Pressed">
+            <Button fx:id="button7" layoutY="50.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" onMouseClicked="#button7Pressed" prefHeight="84.0" prefWidth="111.0" text="7" translateY="1.0">
                <font>
                   <Font size="40.0" />
                </font>
             </Button>
-            <Button fx:id="button6" layoutX="222.0" layoutY="134.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="111.0" text="6" onMouseClicked="#button6Pressed">
+            <Button fx:id="button6" layoutX="222.0" layoutY="134.0" maxHeight="84.0" maxWidth="111.0" mnemonicParsing="false" onMouseClicked="#button6Pressed" prefHeight="84.0" prefWidth="111.0" text="6">
                <font>
                   <Font size="40.0" />
                </font>
             </Button>
          </children>
       </Pane>
-      <TextArea fx:id="textAreaInput" layoutX="23.0" layoutY="14.0" prefHeight="200.0" prefWidth="555.0" promptText="Input" editable="false"/>
-      <TextArea fx:id="textAreaOutput" layoutX="23.0" layoutY="244.0" prefHeight="200.0" prefWidth="555.0" promptText="Output" editable="false"/>
+      <TextArea fx:id="textAreaInput1" editable="false" layoutX="23.0" layoutY="14.0" prefHeight="200.0" prefWidth="221.0" promptText="Input1" />
+      <TextArea fx:id="textAreaInput2" layoutX="361.0" layoutY="14.0" prefHeight="200.0" prefWidth="221.0" promptText="Input2" editable="false"/>
+      <TextArea fx:id="textAreaOutput" editable="false" layoutX="23.0" layoutY="244.0" prefHeight="200.0" prefWidth="555.0" promptText="Output" />
+      <TextField fx:id="textFieldOperation" editable="false" layoutX="287.0" layoutY="102.0" prefHeight="25.0" prefWidth="27.0" promptText="Operation">
+         <font>
+            <Font size="13.0" />
+         </font></TextField>
+
    </children>
 </AnchorPane>
